@@ -1,0 +1,127 @@
+*{
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: 'Oxygen', sans-serif !important;
+    color: #777 !important;
+    background-color: #efefef !important;
+    margin: 0;
+}
+#above-navbar{
+    background-image: url("../images/mikab_model_college.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 0;
+}
+#overlay{
+    background-color: rgba(0, 0, 0, 0.35);
+    text-align: center;
+    padding: 20px;
+}
+#overlay p img{
+    height: 80px;
+    width: 80px;
+    border-radius: 50px;
+}
+#overlay p span{
+    color: white;
+    font-size: 18px;
+    font-family: cursive;
+    font-weight: bold;
+}
+#navbar{
+    background: linear-gradient(to right, #124d12, #008000);
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
+#navbar p{
+    font-size: 20px;
+    margin: 0;
+}
+.img-section{
+    padding-top: 50px;
+}
+.gallery-info{
+    padding-left: 10em;
+    padding-right: 10em;
+}
+.gallery-grids{
+    padding: 5px !important;
+    overflow: hidden;
+}
+.img-title{
+    text-align: center;
+    color: green;
+    font-family: cursive;
+}
+.gallery-image{
+    width: 100%;
+    transition: .5s;
+}
+.gallery-image:hover{
+    transform: scale(1.1);
+    transition: .5s;
+}
+footer{
+    background-color: #2a2b2d;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 5px;
+    margin: 0 !important;
+}
+#footer-content-container{
+    margin-right: auto;
+    margin-left: auto;
+}
+#direct-up{
+    height: 20px;
+}
+#direct-up a{
+    color: white;
+}
+#direct-up-icon{
+    animation-name: bounce;
+    animation-duration: 0.5s;
+    animation-iteration-count: infinite;
+}
+@keyframes bounce{
+    0%{
+        padding-top: 15px;
+    }
+    100%{
+        padding-top: 0px;
+    }
+}
+@media only screen and (max-width: 1000px){
+    .gallery-info{
+        padding-left: 5em;
+        padding-right: 5em;
+    }
+}
+@media only screen and (max-width: 800px){
+    .img-section{
+        padding-left: 2em !important;
+        padding-right: 2em !important;
+    }
+    .gallery-info{
+        padding-left: 0em;
+        padding-right: 0em;
+        display: flex;
+        flex-wrap: nowrap !important;
+        overflow-x: auto !important;
+        scroll-snap-type: x mandatory !important; 
+        -webkit-overflow-scrolling: touch !important;
+    }
+    .gallery-grids{
+        flex: 0 0 auto !important;
+        scroll-snap-align: center !important;
+        width: 80% !important;
+        max-width: 60% !important;
+    }
+}

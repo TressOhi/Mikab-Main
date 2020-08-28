@@ -1,0 +1,75 @@
+*{
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: 'Oxygen', sans-serif !important;
+    color: #777 !important;
+    background-color: #efefef !important;
+    margin: 0;
+}
+#above-navbar{
+    background-image: url("../images/mikab_model_college.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 0;
+}
+#overlay{
+    background-color: rgba(0, 0, 0, 0.35);
+    text-align: center;
+    padding: 20px;
+}
+#overlay p img{
+    height: 80px;
+    width: 80px;
+    border-radius: 50px;
+    vertical-align: middle;
+}
+#overlay p span{
+    color: white;
+    font-size: 18px;
+    font-family: cursive;
+    font-weight: bold;
+}
+#navbar{
+    background: linear-gradient(to right, #124d12, #008000);
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
+#navbar p{
+    font-size: 20px;
+    margin: 0px;
+}
+#text-content{
+    padding: 50px;
+}
+footer{
+    background: linear-gradient(to right, #124d12, #008000);
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+#back-home-button{
+    padding: 5px;
+    color: green;
+    border: none;
+    background-color: white;
+    height: 40px;
+    width: 150px;
+    transition: .5s;
+    outline: none;
+}
+#back-home-button:hover{
+    border-radius: 20px;
+    transition: .5s;
+}
+@media only screen and (max-width:576px){
+    #text-content{
+        padding: 25px;
+    }
+}

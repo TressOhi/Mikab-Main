@@ -1,0 +1,259 @@
+*{
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: 'Oxygen', sans-serif !important;
+    color: #777 !important;
+    background-color: #efefef !important;
+}
+#above-navbar{
+    background-image: url("../images/mikab_model_college.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 0;
+}
+#overlay{
+    background-color: rgba(0, 0, 0, 0.35);
+    text-align: center;
+    padding: 20px;
+}
+#overlay p img{
+    height: 80px;
+    width: 80px;
+    border-radius: 50px;
+}
+#overlay p span{
+    color: white;
+    font-size: 18px;
+    font-family: cursive;
+    font-weight: bold;
+}
+#navbar{
+    background: linear-gradient(to right, #124d12, #008000);
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+#navbar p{
+    margin: 0;
+    font-size: 20px;
+}
+#alumnigist{
+    padding: 30px;
+    margin-top: 50px;
+}
+.headers{
+    color: green;
+    font-family: cursive;
+    text-shadow: 3px 1px 3px rgba(0, 0, 0, 0.14);
+    padding-bottom: 20px;
+}
+.carousel{
+    height: 80vh;
+}
+.carousel-inner{
+    height: 100%;
+}
+.carousel-item{
+    height: 100%;
+}
+#sports{
+    padding: 30px;
+    margin-top: 20px;
+}
+#sports-row{
+    display: flex;
+    flex-direction: row;
+}
+.sports-news-box{
+    padding: 20px;
+}
+.sports-box{
+    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.35);
+}
+.sports-image{
+    width: 100%;
+}
+.sports-news-titbits{
+    padding: 20px;
+    text-align: right;
+}
+.news-title{
+    color: green;
+    font-family: cursive
+}
+.sports-news-titbits p a{
+    color: green;
+    text-decoration: none;
+}
+.sports-news-titbits p a:hover{
+    color: yellowgreen;
+}
+#health{
+    padding: 30px;
+    margin-top: 20px;
+}
+#health-row{
+    display: flex;
+    flex-direction: row;
+}
+.health-news-box{
+    padding: 20px;
+}
+.health-box{
+    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.35);
+}
+.health-image{
+    width: 100%;
+}
+.health-news-titbits{
+    padding: 20px;
+    text-align: right;
+}
+.health-news-titbits p a{
+    color: green;
+    text-decoration: none;
+}
+.health-news-titbits p a:hover{
+    color: yellowgreen;
+}
+#seminar{
+    padding: 30px;
+    margin-top: 20px;
+}
+#seminar-row{
+    display: flex;
+    flex-direction: row;
+}
+.seminar-news-box{
+    padding: 20px;
+}
+.seminar-box{
+    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.35);
+}
+.seminar-image{
+    width: 100%;
+}
+.seminar-news-titbits{
+    padding: 20px;
+    text-align: right;
+}
+.seminar-news-titbits p a{
+    color: green;
+    text-decoration: none;
+}
+.seminar-news-titbits p a:hover{
+    color: yellowgreen;
+}
+footer{
+    background: linear-gradient(to right, #124d12, #008000);
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+#back-home-button{
+    padding: 5px;
+    color: green;
+    border: none;
+    background-color: white;
+    height: 40px;
+    width: 150px;
+    transition: .5s;
+    outline: none;
+}
+#back-home-button:hover{
+    border-radius: 20px;
+    transition: .5s;
+}
+@media only screen and (max-width:1140px){
+    #sports-row{
+        flex-wrap: wrap;
+    }
+    .sports-news-box{
+        width: 50%;
+    }
+    #health-row{
+        flex-wrap: wrap;
+    }
+    .health-news-box{
+        width: 50%;
+    }
+    #seminar-row{
+        flex-wrap: wrap;
+    }
+    .seminar-news-box{
+        width: 50%;
+    }
+}
+@media only screen and (max-width:600px){
+    #sports-row{
+        display: flex;
+        flex-wrap: nowrap !important;
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+        scroll-snap-type: x mandatory; 
+    }
+    .sports-news-box{
+        flex: 0 0 80%;
+        scroll-snap-align: center;
+    }
+    #health-row{
+        display: flex;
+        flex-wrap: nowrap !important;
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+        scroll-snap-type: x mandatory;
+    }
+    .health-news-box{
+        flex: 0 0 80%;
+        scroll-snap-align: center;
+    }
+    #seminar-row{
+        display: flex;
+        flex-wrap: nowrap !important;
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+        scroll-snap-type: x mandatory;
+    }
+    .seminar-news-box{
+        flex: 0 0 80%;
+        scroll-snap-align: center;
+    }
+}
+@media only screen and (max-width:380px){
+    #alumnigist{
+        padding: 20px;
+    }
+    #sports{
+        padding: 20px;
+    }
+    .sports-news-box{
+        flex: 0 0 90%;
+    }
+    .sports-news-titbits {
+        padding: 10px;
+    }
+    #health{
+        padding: 20px
+    }
+    .health-news-box{
+        flex: 0 0 90%;
+    }
+    .health-news-titbits{
+        padding: 10px;
+    }
+    #seminar{
+        padding: 20px
+    }
+    .seminar-news-box{
+        flex: 0 0 90%;
+    }
+    .seminar-news-titbits{
+        padding: 10px;
+    }
+}

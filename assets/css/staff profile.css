@@ -1,0 +1,139 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: 'Oxygen', sans-serif !important;
+    color: #777 !important;
+    background-color: #efefef !important;
+}
+#above-navbar{
+    background-image: url("../images/mikab_model_college.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 0;
+}
+#overlay{
+    background-color: rgba(0, 0, 0, 0.35);
+    text-align: center;
+    padding: 20px;
+}
+#overlay p img{
+    height: 80px;
+    width: 80px;
+    border-radius: 50px;
+}
+#overlay p span{
+    color: white;
+    font-size: 18px;
+    font-family: cursive;
+    font-weight: bold;
+}
+#navbar{
+    background: linear-gradient(to right, #124d12, #008000);
+    padding: 10px;
+    text-align: center;
+}
+#navbar a{
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+}
+#navbar a:hover{
+    color: greenyellow;
+}
+.sticky{
+    top: 0;
+    position: fixed;
+    width: 100%;
+    z-index: 9999;
+}
+#title{
+    color: green;
+    text-shadow: 3px 1px 3px rgba(45, 45, 45, 0.15);
+    text-align: center; 
+    margin-top: 20px;
+    font-family: cursive;
+}
+#title hr{
+    border: 2px solid green !important;
+    width: 5%;
+}
+#nursery-staff-container{
+    padding: 30px;
+    padding-top: 85px;
+}
+.introduction{
+    font-family: cursive;
+}
+.introduction p{
+    margin-bottom: 0px;
+    color: black;
+    font-weight: bold !important;
+}
+.teachers-section-heading{
+    margin-top: 0px;
+    color: green;
+    text-shadow: 3px 1px 3px rgba(45, 45, 45, 0.15);
+}
+.almanac-container{
+    margin-top: 30px;
+}
+.teachers-box{
+    text-align: center;
+}
+.profile-picture{
+    height: 15em;
+    width: 100%;
+    border-radius: 20px;
+}
+#primary-staff-container{
+    padding: 30px;
+    padding-top: 85px;
+}
+#secondary-staff-container{
+    padding: 30px;
+    padding-top: 85px;
+}
+footer{
+    background: linear-gradient(to right, #124d12, #008000);
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+@media only screen and (max-width:655px){
+    #navbar{
+        display: none;
+    }
+    #title {
+        color: white;
+        background-color: green;
+        margin: 0px;
+        padding: 6px;
+    }
+    #title h2{
+        font-size: 20px !important;
+    }
+    #title hr{
+        display: none;
+    }
+    .almanac{
+        flex-wrap: nowrap !important;
+        overflow-x: auto;
+        scroll-snap-type: x mandatory;
+        -webkit-overflow-scrolling: touch;
+    }
+    .teachers-box{
+        scroll-snap-align: center;
+        flex: 0 0 auto;
+        width: 80% !important;
+        max-width: 100% important;
+    }
+    #primary-staff-container{
+        margin-top: 0px;
+    }
+    #secondary-staff-container{
+        margin-top: 0px;
+    }
+}
