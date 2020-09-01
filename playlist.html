@@ -9,12 +9,40 @@
         <link rel="stylesheet" href="./assets/css/e-learning.css">
         <link href="https://fonts.googleapis.com/css2?family=Nova+Cut&family=Oxygen:wght@300;400;700&display=swap" rel="stylesheet">
         <title>Mikab e-Learning</title>
+        <script>
+            function getLink(){
+                if(localStorage.link){
+                    let link = localStorage.link;
+                    document.getElementById("video").src = "https://"+link;
+                    document.getElementById("youtube-link").href = "https://"+link;
+                    document.getElementById("course-name").innerHTML = localStorage.course
+                }
+                else{
+                    window.location = "file:///C:/Users/HP/Documents/Psychedelia/my%20html/mikab%20site/main/e-learning.html"
+                }
+            } 
+            function adjustIcon(){
+                document.getElementById("pointer").style.right = "60px";
+            }
+        </script>
     </head>
-    <body>
-        <div>
-            <iframe width="720" height="405" src="https://www.youtube.com/embed/?listType=playlist&list=PLUkYa9sM8ZVPPIiVKsm9HrAq6QUAvBdhj" frameborder="0" allowfullscreen>
-            <iframe src="https://www.youtube.com/embed/playlist?list=PLUkYa9sM8ZVPPIiVKsm9HrAq6QUAvBdhj" frameborder="0"></iframe>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLx0sYbCqOb8TBPRdmBHs5Iftvv9TPboYG" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+    <body onload="getLink()">
+        <div class="elearning-heading">
+            <h2 id="course-name"></h2>
+        </div>
+        <div class="elearning-video-container">
+            <div class="elearning-video">
+                <p id="pointer">&dArr;</p>
+                <iframe id="video" src="" frameborder="0"></iframe>
+            </div>
+            <div style="text-align: center;">
+                <a href="" id="youtube-link">
+                    <button class="youtube-btn button">Expand Video</button>
+                </a>
+                <a href="">
+                    <button class="button">Switch Course</button>
+                </a>
+            </div>
         </div>
     </body>
 </html>
