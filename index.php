@@ -52,14 +52,15 @@
             <div id="home-overlay">
                 <div class="navbar">
                     <p id="brand"><img src="assets/images/logo.jpg" alt="mikab model school's logo" id="logo"> <span id="schoolname"><a href="https://mikabschool.com">Mikab Model Schools</a></span></p>
-                    <div>
+                    <div class="navbar-nav-container">
                         <div id="navbar-nav">
-                            <a href="#home" class="navlink">Home</a>
+                            <a href="#home" style="padding-left: 0" class="navlink">Home</a>
                             <a href="#aboutus" class="navlink">About</a>
                             <a href="#meetus" class="navlink">Meet Us</a>
                             <a href="#testimonial" class="navlink">Testimonials</a>
                             <a href="enquiry.html" class="navlink">Enquire</a>
                             <a href="extra gist.html" class="navlink">Extra Gist</a>
+                            <a href="e-learning.html" target="_blank" class="navlink">e-Learning</a>
                             <a href="https://mikstudent.mikabschool.com/" class="navlink">Login</a>
                         </div>
                         <div>
@@ -75,12 +76,13 @@
                     <a href="#testimonial" onclick="closeSideNav()" class="side-link">Testimonials</a>
                     <a href="enquiry.html" onclick="closeSideNav()" class="side-link">Enquire</a>
                     <a href="extra gist.html" class="side-link">Extra Gist</a>
+                    <a href="e-learning.html" target="_blank" class="navlink">e-Learning</a>
                     <a href="https://mikstudent.mikabschool.com/" class="side-link">Login</a>
                 </div>
                 <div class="text-center" id="action-txt-1">
                     <h2>Welcome home</h2>
                     <h5>The best place for the child you love is in here. We give them that parent feel you don't see coming!</h5>
-                    <a href="https://forms.gle/AHxLrCabu4K9sVSs5"><button class="button">Get Started</button></a>
+                    <a href="#aboutus"><button class="button">Let's Move</button></a>
                 </div>
             </div>
         </div>
