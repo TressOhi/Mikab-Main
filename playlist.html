@@ -13,16 +13,13 @@
             function getLink(){
                 if(localStorage.link){
                     let link = localStorage.link;
-                    document.getElementById("video").src = "https://"+link;
-                    document.getElementById("youtube-link").href = "https://"+link;
+                    document.getElementById("video").src = "https://www.youtube.com/embed/videoseries?list="+link;
+                    document.getElementById("youtube-link").href = "https://www.youtube.com/playlist?list="+link;
                     document.getElementById("course-name").innerHTML = localStorage.course
                 }
                 else{
-                    window.location = "file:///C:/Users/HP/Documents/Psychedelia/my%20html/mikab%20site/main/e-learning.html"
+                    window.location = "/e-learning.html"
                 }
-            } 
-            function adjustIcon(){
-                document.getElementById("pointer").style.right = "60px";
             }
         </script>
     </head>
@@ -32,14 +29,13 @@
         </div>
         <div class="elearning-video-container">
             <div class="elearning-video">
-                <p id="pointer">&dArr;</p>
                 <iframe id="video" src="" frameborder="0"></iframe>
             </div>
             <div style="text-align: center;">
                 <a href="" id="youtube-link">
-                    <button class="youtube-btn button">Expand Video</button>
+                    <button class="youtube-btn button">Watch on youtube</button>
                 </a>
-                <a href="">
+                <a href="e-learning.html">
                     <button class="button">Switch Course</button>
                 </a>
             </div>
