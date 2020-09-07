@@ -6,7 +6,7 @@
         else{
             $sender= $_POST["sender-mail"];
             $message= $_POST["message"];
-            $subject= "Mail from MIkab Website";
+            $subject= "Mail from Mikab Website";
             $to= "mikabcollege2@gmail.com";
             
             if(mail($to, $subject, $message, "From:" .$sender)){
@@ -56,12 +56,12 @@
                         <div id="navbar-nav">
                             <a href="#home" style="padding-left: 0" class="navlink">Home</a>
                             <a href="#aboutus" class="navlink">About</a>
+                            <a href="e-learning.html" target="_blank" class="navlink">e-Learning</a>
+                            <a href="https://mikstudent.mikabschool.com/" class="navlink">Portal</a>
                             <a href="#meetus" class="navlink">Meet Us</a>
                             <a href="#testimonial" class="navlink">Testimonials</a>
                             <a href="enquiry.html" class="navlink">Enquire</a>
                             <a href="extra gist.html" class="navlink">Extra Gist</a>
-                            <a href="e-learning.html" target="_blank" class="navlink">e-Learning</a>
-                            <a href="https://mikstudent.mikabschool.com/" class="navlink">Login</a>
                         </div>
                         <div>
                             <a href="#" id="side-nav-open" onclick= openSideNav()><i class="fa fa-bars"></i></a>
@@ -72,12 +72,12 @@
                     <a id="side-nav-close" onclick="closeSideNav()">&times;</a>
                     <a href="#home" onclick="closeSideNav()" class="side-link">Home</a>
                     <a href="#aboutus" onclick="closeSideNav()" class="side-link">About</a>
+                    <a href="e-learning.html" target="_blank" class="navlink">e-Learning</a>
+                    <a href="https://mikstudent.mikabschool.com/" class="side-link">Portal</a>
                     <a href="#meetus" onclick="closeSideNav()" class="side-link">Meet Us</a>
                     <a href="#testimonial" onclick="closeSideNav()" class="side-link">Testimonials</a>
                     <a href="enquiry.html" onclick="closeSideNav()" class="side-link">Enquire</a>
                     <a href="extra gist.html" class="side-link">Extra Gist</a>
-                    <a href="e-learning.html" target="_blank" class="navlink">e-Learning</a>
-                    <a href="https://mikstudent.mikabschool.com/" class="side-link">Login</a>
                 </div>
                 <div class="text-center" id="action-txt-1">
                     <h2>Welcome home</h2>
@@ -139,61 +139,61 @@
             <h2 class="headers" id="management-heading">Our Management</h2>
             <div class="almanac-container row">
                 <div class="thumbnail almanac col-md-3">
-                    <img src="http://mikabschool.com/assets/images/director.jpg" alt="Mikab model school and college director" class="almanac-image">
+                    <img src="https://mikabschool.com/assets/images/director.jpg" alt="Mikab model school and college director" class="almanac-image">
                     <div class="almanac-portfolio">
                         <p>Michael Enebe <br>Director</p>
                     </div>
                 </div>
                 <div class="thumbnail almanac col-md-3">
-                    <img src="http://mikabschool.com/assets/images/Asst%20director.jpg" alt="Mikab model school and college assistant director" class="almanac-image">
+                    <img src="https://mikabschool.com/assets/images/Asst%20director.jpg" alt="Mikab model school and college assistant director" class="almanac-image">
                     <div class="almanac-portfolio">
                         <p>Veronica Enebe <br> Asst Director</p>
                     </div>
                 </div>
                 <div class="thumbnail almanac col-md-3">
-                    <img src="http://mikabschool.com/assets/images/manager.jpg" alt="Mikab model school and college manager" class="almanac-image">
+                    <img src="https://mikabschool.com/assets/images/manager.jpg" alt="Mikab model school and college manager" class="almanac-image">
                     <div class="almanac-portfolio">
                         <p>Raphael Kate <br>Manager</p>
                     </div>
                 </div>
                 <div class="thumbnail almanac col-md-3">
-                    <img src="http://mikabschool.com/assets/images/secretary.jpg" alt="Mikab model school and college secretary" class="almanac-image">
+                    <img src="https://mikabschool.com/assets/images/secretary.jpg" alt="Mikab model school and college secretary" class="almanac-image">
                     <div class="almanac-portfolio">
                         <p>Musa Hannah <br>Secretary</p>
                     </div>
                 </div>
                 <div class="thumbnail almanac col-md-3">
-                    <img src="http://mikabschool.com/assets/images/principal.jpg" alt="Mikab model college principal" class="almanac-image">
+                    <img src="https://mikabschool.com/assets/images/principal.jpg" alt="Mikab model college principal" class="almanac-image">
                     <div class="almanac-portfolio">
                         <p>Sanni Victor<br>Principal</p>
                     </div>
                 </div>
                 <div class="thumbnail almanac col-md-3">
-                    <img src="http://mikabschool.com/assets/images/vp_acad.jpg" alt="Mikab model college vice principal academics" class="almanac-image">
+                    <img src="https://mikabschool.com/assets/images/vp_acad.jpg" alt="Mikab model college vice principal academics" class="almanac-image">
                     <div class="almanac-portfolio">
                         <p>Michael Obansa <br>VP Acad</p>
                     </div>
                 </div>
                 <div class="thumbnail almanac col-md-3">
-                    <img src="http://mikabschool.com/assets/images/vp_admin.jpg" alt="Mikab model college vice principal administration" class="almanac-image">
+                    <img src="https://mikabschool.com/assets/images/vp_admin.jpg" alt="Mikab model college vice principal administration" class="almanac-image">
                     <div class="almanac-portfolio">
                         <p>Ojo Rukayat <br>VP Admin</p>
                     </div>
                 </div>
                 <div class="thumbnail almanac col-md-3">
-                    <img src="http://mikabschool.com/assets/images/vp%20special.jpg" alt="Mikab model college vice principal special duties" class="almanac-image">
+                    <img src="https://mikabschool.com/assets/images/vp%20special.jpg" alt="Mikab model college vice principal special duties" class="almanac-image">
                     <div class="almanac-portfolio">
                         <p>Salawu Adeiza <br>VP Special</p>
                     </div>
                 </div>
                 <div class="thumbnail almanac col-md-3">
-                    <img src="http://mikabschool.com/assets/images/head_teacher.jpg" alt="Mikab model school head teacher" class="almanac-image">
+                    <img src="https://mikabschool.com/assets/images/head_teacher.jpg" alt="Mikab model school head teacher" class="almanac-image">
                     <div class="almanac-portfolio">
                         <p>Sunday Light <br>Head Teacher</p>
                     </div>
                 </div>
                 <div class="thumbnail almanac col-md-3">
-                    <img src="http://mikabschool.com/assets/images/asst_head_teacher.jpg" alt="Mikab model school assistant head teacher" class="almanac-image">
+                    <img src="https://mikabschool.com/assets/images/asst_head_teacher.jpg" alt="Mikab model school assistant head teacher" class="almanac-image">
                     <div class="almanac-portfolio">
                         <p>Rashidah Uthman <br>Asst Head Teacher</p>
                     </div>
@@ -216,14 +216,14 @@
             <div class="row testimonies-container">
                 <div class="testimonies-box col-lg-6 col-sm-6 col-md-6">
                     <div class="testimonies">
-                        <p><img src="http://mikabschool.com/assets/images/don favour.jpg" alt="" class="profile-picture"></p>
+                        <p><img src="https://mikabschool.com/assets/images/don favour.jpg" alt="" class="profile-picture"></p>
                         <p>"The Great Mikab grew and became one of the Best of this time and times to come. Mikab moulded us into whom we are today, we are hardworking, disciplined, productive, successful and still pushing today because the School never took light the destinies placed in her hands."</p>
                         <p class="author">-Ruth Iroh</p>
                     </div>
                 </div>
                 <div class="testimonies-box col-lg-6 col-sm-6 col-md-6">
                     <div class="testimonies">
-                        <p><img src="http://mikabschool.com/assets/images/hassan.jpg" alt="" class="profile-picture"></p>
+                        <p><img src="https://mikabschool.com/assets/images/hassan.jpg" alt="" class="profile-picture"></p>
                         <p>"Well, Mikab is like my home, I spent more than ten years as a student there( Primary and secondary).
 As a human being I do believe that we're all created special. But someone has to help you find your purpose and Mikab helped me with that. A strong and solid foundation is everything and I got that from Mikab."</p>
                         <p class="author">-Sadiq Hassan</p>
@@ -231,7 +231,7 @@ As a human being I do believe that we're all created special. But someone has to
                 </div>
                 <div class="testimonies-box col-lg-6 col-sm-6 col-md-6">
                     <div class="testimonies">
-                        <p><img src="http://mikabschool.com/assets/images/simisi.jpg" alt="" class="profile-picture"></p>
+                        <p><img src="https://mikabschool.com/assets/images/simisi.jpg" alt="" class="profile-picture"></p>
                         <p>"Mikab is currently one of the best schools in Kogi state. 
 The proprietor in person of Pastor Michael Enebe is a great man. A man with vision, a great philanthropist and a mentor to so many.
 I can say they have the best hands on deck taking various courses at a standard you just can't beat." </p>
@@ -240,7 +240,7 @@ I can say they have the best hands on deck taking various courses at a standard 
                 </div>
                 <div class="testimonies-box col-lg-6 col-sm-6 col-md-6">
                     <div class="testimonies">
-                        <p><img src="http://mikabschool.com/assets/images/aluko oluwole.jpg" alt="" class="profile-picture"></p>
+                        <p><img src="https://mikabschool.com/assets/images/aluko oluwole.jpg" alt="" class="profile-picture"></p>
                         <p>"Mikab Model College! 
 A great citadel where leaders are made.
 Where not just leaders but agents of change in their immediate society."</p>
@@ -345,7 +345,7 @@ Where not just leaders but agents of change in their immediate society."</p>
             <div class="row gallery-info">
                 <div class="col-lg-3 gallery-image-box">
                     <div class="gallery-grids">
-                        <img src="http://mikabschool.com/assets/images/image_of_the_director_in_his_office.jpg" alt="image showing the director in his office" class="img-fluid gallery-img">
+                        <img src="https://mikabschool.com/assets/images/image_of_the_director_in_his_office.jpg" alt="image showing the director in his office" class="img-fluid gallery-img">
                         <div class="social-icons">
                             <a href="https://www.facebook.com/mikabcollege/"><i class="fa fa-facebook"></i></a>
                             <a href="tel:08035994637"><i class="fa fa-phone"></i></a>
@@ -356,7 +356,7 @@ Where not just leaders but agents of change in their immediate society."</p>
                 </div>
                 <div class="col-lg-3 gallery-image-box">
                     <div class="gallery-grids">
-                        <img src="http://mikabschool.com/assets/images/gallery1.jpg" alt="Pupil graduating from the creche section into the nursery section" class="img-fluid gallery-img">
+                        <img src="https://mikabschool.com/assets/images/gallery1.jpg" alt="Pupil graduating from the creche section into the nursery section" class="img-fluid gallery-img">
                         <div class="social-icons">
                             <a href="https://www.facebook.com/mikabcollege/"><i class="fa fa-facebook"></i></a>
                             <a href="tel:08035994637"><i class="fa fa-phone"></i></a>
@@ -367,7 +367,7 @@ Where not just leaders but agents of change in their immediate society."</p>
                 </div>
                 <div class="col-lg-3 gallery-image-box">
                     <div class="gallery-grids">
-                        <img src="http://mikabschool.com/assets/images/gallery10.jpg" alt="Teacher giving a brief talk during students morning assembly" class="img-fluid gallery-img">
+                        <img src="https://mikabschool.com/assets/images/gallery10.jpg" alt="Teacher giving a brief talk during students morning assembly" class="img-fluid gallery-img">
                         <div class="social-icons">
                             <a href="https://www.facebook.com/mikabcollege/"><i class="fa fa-facebook"></i></a>
                             <a href="tel:08035994637"><i class="fa fa-phone"></i></a>
@@ -378,7 +378,7 @@ Where not just leaders but agents of change in their immediate society."</p>
                 </div>
                 <div class="col-lg-3 gallery-image-box">
                     <div class="gallery-grids">
-                        <img src="http://mikabschool.com/assets/images/gallery11.jpg" alt="primary school graduands posing with their certificates" class="img-fluid gallery-img">
+                        <img src="https://mikabschool.com/assets/images/gallery11.jpg" alt="primary school graduands posing with their certificates" class="img-fluid gallery-img">
                         <div class="social-icons">
                             <a href="https://www.facebook.com/mikabcollege/"><i class="fa fa-facebook"></i></a>
                             <a href="tel:08035994637"><i class="fa fa-phone"></i></a>
@@ -389,7 +389,7 @@ Where not just leaders but agents of change in their immediate society."</p>
                 </div>
                 <div class="col-lg-3 gallery-image-box">
                     <div class="gallery-grids">
-                        <img src="http://mikabschool.com/assets/images/gallery2.jpg" alt="the director praying for newly inducted secondary school students" class="img-fluid gallery-img">
+                        <img src="https://mikabschool.com/assets/images/gallery2.jpg" alt="the director praying for newly inducted secondary school students" class="img-fluid gallery-img">
                         <div class="social-icons">
                             <a href="https://www.facebook.com/mikabcollege/"><i class="fa fa-facebook"></i></a>
                             <a href="tel:08035994637"><i class="fa fa-phone"></i></a>
@@ -400,7 +400,7 @@ Where not just leaders but agents of change in their immediate society."</p>
                 </div>
                 <div class="col-lg-3 gallery-image-box">
                     <div class="gallery-grids">
-                        <img src="http://mikabschool.com/assets/images/gallery3.jpg" alt="students marching during the annual inter-house sports" class="img-fluid gallery-img">
+                        <img src="https://mikabschool.com/assets/images/gallery3.jpg" alt="students marching during the annual inter-house sports" class="img-fluid gallery-img">
                         <div class="social-icons">
                             <a href="https://www.facebook.com/mikabcollege/"><i class="fa fa-facebook"></i></a>
                             <a href="tel:08035994637"><i class="fa fa-phone"></i></a>
@@ -411,7 +411,7 @@ Where not just leaders but agents of change in their immediate society."</p>
                 </div>
                 <div class="col-lg-3 gallery-image-box">
                     <div class="gallery-grids">
-                        <img src="http://mikabschool.com/assets/images/gallery4.jpg" alt="a view showing teachers dring the induction of new students" class="img-fluid gallery-img">
+                        <img src="https://mikabschool.com/assets/images/gallery4.jpg" alt="a view showing teachers dring the induction of new students" class="img-fluid gallery-img">
                         <div class="social-icons">
                             <a href="https://www.facebook.com/mikabcollege/"><i class="fa fa-facebook"></i></a>
                             <a href="tel:08035994637"><i class="fa fa-phone"></i></a>
@@ -422,7 +422,7 @@ Where not just leaders but agents of change in their immediate society."</p>
                 </div>
                 <div class="col-lg-3 gallery-image-box">
                     <div class="gallery-grids">
-                        <img src="http://mikabschool.com/assets/images/gallery5.jpg" alt="teachers marching during the yearly inter-house sports" class="img-fluid gallery-img">
+                        <img src="https://mikabschool.com/assets/images/gallery5.jpg" alt="teachers marching during the yearly inter-house sports" class="img-fluid gallery-img">
                         <div class="social-icons">
                             <a href="https://www.facebook.com/mikabcollege/"><i class="fa fa-facebook"></i></a>
                             <a href="tel:08035994637"><i class="fa fa-phone"></i></a>
@@ -433,7 +433,7 @@ Where not just leaders but agents of change in their immediate society."</p>
                 </div>
                 <div class="col-lg-3 gallery-image-box">
                     <div class="gallery-grids">
-                        <img src="http://mikabschool.com/assets/images/gallery6.jpg" alt="cultural dancers during the annual graduation" class="img-fluid gallery-img">
+                        <img src="https://mikabschool.com/assets/images/gallery6.jpg" alt="cultural dancers during the annual graduation" class="img-fluid gallery-img">
                         <div class="social-icons">
                             <a href="https://www.facebook.com/mikabcollege/"><i class="fa fa-facebook"></i></a>
                             <a href="tel:08035994637"><i class="fa fa-phone"></i></a>
@@ -444,7 +444,7 @@ Where not just leaders but agents of change in their immediate society."</p>
                 </div>
                 <div class="col-lg-3 gallery-image-box">
                     <div class="gallery-grids">
-                        <img src="http://mikabschool.com/assets/images/gallery7.jpg" alt="cultural dancers during the annual graduation" class="img-fluid gallery-img">
+                        <img src="https://mikabschool.com/assets/images/gallery7.jpg" alt="cultural dancers during the annual graduation" class="img-fluid gallery-img">
                         <div class="social-icons">
                             <a href="https://www.facebook.com/mikabcollege/"><i class="fa fa-facebook"></i></a>
                             <a href="tel:08035994637"><i class="fa fa-phone"></i></a>
@@ -455,7 +455,7 @@ Where not just leaders but agents of change in their immediate society."</p>
                 </div>
                 <div class="col-lg-3 gallery-image-box">
                     <div class="gallery-grids">
-                        <img src="http://mikabschool.com/assets/images/gallery8.jpg" alt="staff digging it on the dance floor during the annual graduation ceremony" class="img-fluid gallery-img">
+                        <img src="https://mikabschool.com/assets/images/gallery8.jpg" alt="staff digging it on the dance floor during the annual graduation ceremony" class="img-fluid gallery-img">
                         <div class="social-icons">
                             <a href="https://www.facebook.com/mikabcollege/"><i class="fa fa-facebook"></i></a>
                             <a href="tel:08035994637"><i class="fa fa-phone"></i></a>
@@ -466,7 +466,7 @@ Where not just leaders but agents of change in their immediate society."</p>
                 </div>
                 <div class="col-lg-3 gallery-image-box">
                     <div class="gallery-grids">
-                        <img src="http://mikabschool.com/assets/images/gallery9.jpg" alt="students lined up for morning assembly" class="img-fluid gallery-img">
+                        <img src="https://mikabschool.com/assets/images/gallery9.jpg" alt="students lined up for morning assembly" class="img-fluid gallery-img">
                         <div class="social-icons">
                             <a href="https://www.facebook.com/mikabcollege/"><i class="fa fa-facebook"></i></a>
                             <a href="tel:08035994637"><i class="fa fa-phone"></i></a>
